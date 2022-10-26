@@ -1,0 +1,44 @@
+<!-- Agung Form Sheets -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content bg-dark text-light">
+            <div class="modal-header border-0">
+                <h5 class="modal-title" id="exampleModalLabel">Lapor Error</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+            </div>
+            <div class="modal-body bg-dark text-light bt bb">
+                <div class="alert alert-info alert-dismissible fade show d-none my-alert" role="alert">
+                    <strong>Terimakasih!</strong> Pesan terkirim.
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+
+                <!-- Form -->
+                <form name="agung-contact-form">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nama</label>
+                        <input type="name" class="form-control" id="name" name="nama" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="pesan" class="form-label">Pesan</label>
+                        <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-outline-info btn-sm pt-2 pb-2 ps-3 pe-3 btn-kirim float-end">
+                        Kirim
+                    </button>
+                    <button class="btn btn-outline-info btn-loading d-none float-end" type="button" disabled>
+                        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                        Loading...
+                    </button>
+                </form>
+                <!-- form -->
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Akhir Agung Form Sheets -->
