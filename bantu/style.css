@@ -44,10 +44,22 @@ li {
    max-height: 24px;
    transition: all .3s ease-out;
    background: linear-gradient(rgba(255, 0, 0, 0), 15%, rgb(0, 0, 0));
-   /* background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0.507)); */
 }
 
 .position-relative:hover .posisi_judul {
+   max-height: 80%;
+   transition: all .3s ease-out;
+}
+
+/* Album */
+.posisi_skin {
+   color: white;
+   overflow: hidden;
+   max-height: 24px;
+   transition: all .3s ease-out;
+}
+
+.position-relative:hover .posisi_skin {
    max-height: 80%;
    transition: all .3s ease-out;
 }
