@@ -51,29 +51,16 @@ li {
    transition: all .3s ease-out;
 }
 
-/* Album */
-.posisi_skin {
-   color: white;
-   overflow: hidden;
-   max-height: 24px;
-   transition: all .3s ease-out;
-}
-
-.position-relative:hover .posisi_skin {
-   max-height: 80%;
-   transition: all .3s ease-out;
-}
-
 .bb {
-   border-bottom: solid 5px green;
+   border-bottom: solid 5px rgba(255, 153, 0, 0.603);
 }
 
 .bgd {
-   background-color: green;
+   background-color: rgba(255, 153, 0, 0.603);
 }
 
 .bt {
-   border-top: solid 5px green;
+   border-top: solid 5px rgba(255, 153, 0, 0.603);
 }
 
 img {
