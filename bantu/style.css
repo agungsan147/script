@@ -78,4 +78,6 @@ li {
 
 img {
    pointer-events: none;
+   height: auto;
+   width: 100%;
 }
