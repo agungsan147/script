@@ -51,6 +51,10 @@ li {
    transition: all .3s ease-out;
 }
 
+.posisi_genre:hover {
+   background-color: rgb(59, 59, 59);
+}
+
 .bb {
    border-bottom: solid 5px rgba(255, 153, 0, 0.603);
 }
