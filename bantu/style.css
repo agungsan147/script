@@ -68,7 +68,9 @@ li {
 }
 
 img {
-   pointer-events: none;
-   height: auto;
    width: 100%;
+}
+
+.margin-judul {
+   margin-top: 100px;
 }
