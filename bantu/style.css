@@ -43,7 +43,7 @@ li {
    overflow: hidden;
    max-height: 24px;
    transition: all .3s ease-out;
-   background: linear-gradient(rgba(255, 0, 0, 0), 30%, rgb(24, 24, 24));
+   background: linear-gradient(rgba(255, 0, 0, 0), 30%, rgb(41, 41, 41));
 }
 
 .position-relative:hover .posisi_judul {
@@ -56,21 +56,21 @@ li {
 }
 
 .bb {
-   border-bottom: solid 5px rgba(255, 153, 0, 0.603);
+   border-bottom: solid 5px rgb(17, 0, 255);
 }
 
 .bgd {
-   background-color: rgba(255, 153, 0, 0.603);
+   background-color: rgb(17, 0, 255);
 }
 
 .bt {
-   border-top: solid 5px rgba(255, 153, 0, 0.603);
+   border-top: solid 5px rgb(17, 0, 255);
 }
 
 img {
    width: 100%;
 }
 
-.margin-judul {
+.posisi_judul {
    margin-top: 100px;
 }
