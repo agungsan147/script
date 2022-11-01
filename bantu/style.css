@@ -1,12 +1,3 @@
-/* $grid-breakpoints:
-xs: 0,
-sm: 576px,
-md: 768px,
-lg: 992px,
-xl: 1200px,
-xxl: 1400px
-*/
-
 /* Icon Bootstrap */
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 
@@ -19,12 +10,6 @@ p {
    overflow: hidden;
    white-space: nowrap;
    text-overflow: ellipsis;
-}
-
-.list_anime {
-   text-decoration: none;
-   --bs-text-opacity: 1;
-   color: rgba(var(--bs-info-rgb), var(--bs-text-opacity)) !important;
 }
 
 a {
@@ -51,8 +36,13 @@ li {
    transition: all .3s ease-out;
 }
 
+.posisi_genre {
+   color: rgb(21, 255, 0);
+}
+
 .posisi_genre:hover {
    background-color: rgb(59, 59, 59);
+   color: rgb(17, 204, 0)
 }
 
 .bb {
@@ -71,6 +61,6 @@ img {
    width: 100%;
 }
 
-.posisi_judul {
-   margin-top: 100px;
+.list {
+   color: rgb(21, 255, 0);
 }
