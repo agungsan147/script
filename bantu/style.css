@@ -28,7 +28,7 @@ li {
    overflow: hidden;
    max-height: 24px;
    transition: all .3s ease-out;
-   background: linear-gradient(rgba(255, 0, 0, 0), 30%, rgb(41, 41, 41));
+   background: linear-gradient(#ff000000, 30%, rgb(41, 41, 41));
 }
 
 .position-relative:hover .posisi_judul {
@@ -37,12 +37,12 @@ li {
 }
 
 .posisi_genre {
-   color: red;
+   color: rgb(0, 255, 242);
 }
 
 .posisi_genre:hover {
    background-color: rgb(65, 65, 65);
-   color: red;
+   color: rgb(0, 255, 242);
 }
 
 .bb {
@@ -62,5 +62,5 @@ img {
 }
 
 .list {
-   color: red;
+   color: rgb(0, 255, 242);
 }
