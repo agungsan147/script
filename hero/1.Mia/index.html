@@ -7,39 +7,30 @@
 <head>
    <meta charset="utf-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1" />
-   <title>All Script Miya | Agung147-Script</title>
+
+   <!-- Thumbnail -->
+   <meta property="og:type" content="article" />
+   <meta property="og:title" content="Home | Aoinime" />
+   <meta property="og:description" content="Download Anime Subtitle Indonesia" />
+   <meta property="og:url" content="https://aoinime.vercel.app" />
+   <meta property="og:image" content="https://cdn.statically.io/gh/agunggrafic/database-anime/main/bantu/icon.jpg" />
+
+   <title>Home | Aoinime</title>
 
    <!-- Icon -->
-   <link rel="icon" href="/bantu/icon.ico" type="image/x-icon" />
+   <link rel="icon" href="https://cdn.statically.io/gh/agunggrafic/database-anime/main/bantu/icon.ico"
+      type="image/x-icon" />
 
    <!-- Bootstraps -->
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" />
 
    <!-- Style CSS -->
-   <link rel="stylesheet" href="/bantu/style.css" />
-
+   <link rel="stylesheet" href="ttps://cdn.statically.io/gh/agunggrafic/database-script/main/bantu/global/style.css" />
    <!-- JQuery -->
-   <script src="https://cdn.statically.io/gh/agunggrafic/anime-bantu/main/global/jquery.js"></script>
+   <script src="https://cdn.statically.io/gh/agunggrafic/database-anime/main/bantu/global/jquery.js"></script>
 </head>
 
 <body>
-
-   <script>
-      // Album
-      fetch("/album/hero.html").then((snap) => snap.text()).then((result) => {
-         Hero.innerHTML = result;
-
-         // Posisi Album
-         $(".posisi_album").addClass("col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 text-center d-none")
-         $(".posisi_skin").addClass("position-absolute top-0 start-0 end-0 ps-1 pe-1 bg-black bg-opacity-75")
-         $(".posisi_judul").addClass("position-absolute bottom-0 start-0 end-0 ps-1 pe-1")
-
-         // Hero
-         for (let i = 1; i <= 20; i++) {
-            $("#Miya_" + i).removeClass("d-none");
-         }
-      });
-   </script>
 
    <!-- Agung Form Sheets -->
    <span id="sheets"></span>
@@ -67,13 +58,6 @@
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                      <ul class="navbar-nav me-automb-lg-0">
                         <li class="nav-item">
-                           <a class="nav-link" aria-current="page" href="/menu/list_hero/index.html">List Hero</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link" aria-current="page" href="/menu/pilih_role_&_skin/index.html">Pilih Role
-                              & Skin</a>
-                        </li>
-                        <li class="nav-item">
                            <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal" aria-current="page"
                               href="#">Lapor Error</a>
                         </li>
@@ -96,40 +80,73 @@
                      col-lg-8 offset-lg-2
                      col-md-10 offset-md-1">
 
-            <!-- Hero -->
-            <div class="text-light bg-dark mb-2 bb text-center">
-               All Script Skin Miya
-            </div>
-            <span id="Hero"></span>
-         </div>
+            <!-- Judul -->
+            <div class="text-light bg-dark mb-2 bb text-center">All Script Skin Miya</div>
 
-         <!-- Info -->
-         <div class="col-xl-6 offset-xl-3
-                     col-lg-8 offset-lg-2
-                     col-md-10 offset-md-1">
-            <div class="ps-3 text-light bg-dark bb">
-               Info
+            <!-- Album -->
+            <div class="row g-1 mb-3">
+
+               <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 text-center">
+                  <a href="/hero/1.Mia">
+                     <div class="position-relative">
+                        <img class="img-fluid"
+                           src="https://cdn.statically.io/gh/agunggrafic/database-script/main/img/1.Mia/1.jpg">
+                        <div class="size position-absolute top-0 start-0 bg-black bg-opacity-75 text-light ps-1 pe-1">
+                           6 MB
+                        </div>
+                        <div class="judul position-absolute bottom-0 start-0 end-0 ps-1 pe-1">
+                           Miya
+                        </div>
+                     </div>
+                  </a>
+               </div>
+
             </div>
-            <div class="container px-sm-3 bg-dark text-light mt-2">
-               Website ini sedang dalam tahap Pengembangan, Laporkan jika melihat Error, Terimakasih.
-            </div>
+            <!-- Akhir Album -->
+
          </div>
       </div>
    </div>
 
    <!-- Footer -->
-   <footer class="bg-dark text-white text-center pb-2 pt-2 mt-3 bt">
-      <div class="col">
-         Created with <i class="bi bi-heart-fill text-danger"></i> By <a href="/index.html"
-            class="text-white fw-bold">Agung Hidayat</a>
+   <footer class="bg-dark text-white bt">
+      <div class="container pt-2 pb-2">
+         <div class="row">
+
+            <!-- About -->
+            <div class="col-xxl-4 offset-xxl-2 
+                        col-xl-5 offset-xl-1 
+                        col-lg-5 offset-lg-1 
+                        col-md-6 col-sm-6 col-12 
+                        pt-2 pb-2">
+               <div class="border-bottom border-4 border-secondary">
+                  <strong>About</strong>
+               </div>
+               <div>
+                  Tempat Download Script Skin Mobile Legends Lengkap.
+               </div>
+            </div>
+
+            <!-- Info -->
+            <div class="col-xxl-4 col-xl-5 col-lg-5 col-md-6 col-sm-6 col-12 pt-2 pb-2">
+               <div class="border-bottom border-4 border-secondary">
+                  <strong>Info</strong>
+               </div>
+               <div>
+                  Website ini sedang dalam tahap Pengembangan, Laporkan jika melihat Error, Terimakasih.
+               </div>
+            </div>
+         </div>
       </div>
-      <div class="col">
-         Copyright © 2022 Agung147. All Rights Reserved
+
+      <!-- Copyright -->
+      <div class="bg-footer text-center pt-2 pb-2">
+         Copyright © 2022 All Rights Reserved, Agung147.
       </div>
    </footer>
 
    <!-- My Script -->
-   <script src="https://cdn.statically.io/gh/agunggrafic/anime-bantu/main/script.js"></script>
+   <script src="/bantu/global/script.js"></script>
 
    <!-- Javascript Bootstaps -->
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
