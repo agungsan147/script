@@ -10,12 +10,12 @@
 
    <!-- Thumbnail -->
    <meta property="og:type" content="article" />
-   <meta property="og:title" content="Home | Aoinime" />
-   <meta property="og:description" content="Download Anime Subtitle Indonesia" />
-   <meta property="og:url" content="https://aoinime.vercel.app" />
+   <meta property="og:title" content="Nama_Hero | Agung147" />
+   <meta property="og:description" content="Download Script Skin Mobile Legends" />
+   <meta property="og:url" content="https://agung147-script.vercel.app" />
    <meta property="og:image" content="https://cdn.statically.io/gh/agunggrafic/database-anime/main/bantu/icon.jpg" />
 
-   <title>Home | Aoinime</title>
+   <title>Nama_Hero | Agung147</title>
 
    <!-- Icon -->
    <link rel="icon" href="https://cdn.statically.io/gh/agunggrafic/database-anime/main/bantu/icon.ico"
@@ -26,124 +26,33 @@
 
    <!-- Style CSS -->
    <link rel="stylesheet" href="https://cdn.statically.io/gh/agunggrafic/database-script/main/bantu/global/style.css" />
+
    <!-- JQuery -->
    <script src="https://cdn.statically.io/gh/agunggrafic/database-anime/main/bantu/global/jquery.js"></script>
 </head>
 
 <body>
 
+   <script>
+      fetch("/bantu/content/utama.html").then((snap) => snap.text()).then((result) => {
+         body_utama.innerHTML = result;
+
+         // Judul
+         $("#judul").html("All Script Skin Nama_Hero")
+
+         // _1
+         $("#tujuan_1").attr("href", "LINK_DOWNLOAD").parent().removeClass("d-none")
+         $("#img_1").attr("src",
+            "https://cdn.statically.io/gh/agunggrafic/database-script/main/img/1.Nama_Hero/_1.jpg")
+         $("#size_1").html("0 MB")
+         $("#hero_1").html("Backup")
+      });
+   </script>
+
+   <span id="body_utama"></span>
+
    <!-- Agung Form Sheets -->
    <span id="sheets"></span>
-
-   <!-- Navbar -->
-   <div class="bg-dark bb">
-      <div class="container">
-         <div class="row">
-            <div class="col-xl-6 offset-xl-3
-                        col-lg-8 offset-lg-2
-                        col-md-10 offset-md-1">
-
-               <!-- Navbar -->
-               <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-                  <a class="navbar-brand" href="/index.html">Home</a>
-
-                  <!-- Tombol -->
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                     aria-expanded="false" aria-label="Toggle navigation">
-                     <span class="navbar-toggler-icon"></span>
-                  </button>
-
-                  <!-- List Menu -->
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                     <ul class="navbar-nav me-automb-lg-0">
-                        <li class="nav-item">
-                           <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal" aria-current="page"
-                              href="#">Lapor Error</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link" aria-current="page"
-                              href="https://agung147-portofolio.vercel.app">Profil</a>
-                        </li>
-                     </ul>
-                  </div>
-               </nav>
-            </div>
-         </div>
-      </div>
-   </div>
-
-   <!-- Container Album Anime -->
-   <div class="container pt-3">
-      <div class="row">
-         <div class="col-xl-6 offset-xl-3
-                     col-lg-8 offset-lg-2
-                     col-md-10 offset-md-1">
-
-            <!-- Judul -->
-            <div class="text-light bg-dark mb-2 bb text-center">All Script Skin Miya</div>
-
-            <!-- Album -->
-            <div class="row g-1 mb-3">
-
-               <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 text-center">
-                  <a href="/hero/1.Mia">
-                     <div class="position-relative">
-                        <img class="img-fluid"
-                           src="https://cdn.statically.io/gh/agunggrafic/database-script/main/img/1.Mia/1.jpg">
-                        <div class="size position-absolute top-0 start-0 bg-black bg-opacity-75 text-light ps-1 pe-1">
-                           6 MB
-                        </div>
-                        <div class="judul position-absolute bottom-0 start-0 end-0 ps-1 pe-1">
-                           Miya
-                        </div>
-                     </div>
-                  </a>
-               </div>
-
-            </div>
-            <!-- Akhir Album -->
-
-         </div>
-      </div>
-   </div>
-
-   <!-- Footer -->
-   <footer class="bg-dark text-white bt">
-      <div class="container pt-2 pb-2">
-         <div class="row">
-
-            <!-- About -->
-            <div class="col-xxl-4 offset-xxl-2 
-                        col-xl-5 offset-xl-1 
-                        col-lg-5 offset-lg-1 
-                        col-md-6 col-sm-6 col-12 
-                        pt-2 pb-2">
-               <div class="border-bottom border-4 border-secondary">
-                  <strong>About</strong>
-               </div>
-               <div>
-                  Tempat Download Script Skin Mobile Legends Lengkap.
-               </div>
-            </div>
-
-            <!-- Info -->
-            <div class="col-xxl-4 col-xl-5 col-lg-5 col-md-6 col-sm-6 col-12 pt-2 pb-2">
-               <div class="border-bottom border-4 border-secondary">
-                  <strong>Info</strong>
-               </div>
-               <div>
-                  Website ini sedang dalam tahap Pengembangan, Laporkan jika melihat Error, Terimakasih.
-               </div>
-            </div>
-         </div>
-      </div>
-
-      <!-- Copyright -->
-      <div class="bg-footer text-center pt-2 pb-2">
-         Copyright © 2022 All Rights Reserved, Agung147.
-      </div>
-   </footer>
 
    <!-- My Script -->
    <script src="/bantu/global/script.js"></script>
