@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" oncontextmenu="return false">
+
+<head>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+   <!-- Thumbnail -->
+   <meta property="og:type" content="article" />
+   <meta property="og:title" content="All Script Skin Balmond | Agung147" />
+   <meta property="og:description" content="Download Script Skin Mobile Legends" />
+   <meta property="og:url" content="https://agung147-script.vercel.app" />
+   <meta property="og:image" content="https://cdn.statically.io/gh/agunggrafic/database-anime/main/bantu/icon.jpg" />
+
+   <title>All Script Skin Balmond | Agung147</title>
+
+   <!-- Icon -->
+   <link rel="icon" href="https://cdn.statically.io/gh/agunggrafic/database-anime/main/bantu/icon.ico"
+      type="image/x-icon" />
+
+   <!-- Bootstraps -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" />
+
+   <!-- Style CSS -->
+   <link rel="stylesheet" href="https://cdn.statically.io/gh/agunggrafic/database-script/main/global/style.css" />
+
+   <!-- JQuery -->
+   <script src="https://cdn.statically.io/gh/agunggrafic/database-anime/main/bantu/global/jquery.js"></script>
+</head>
+
+<body>
+
+   <script>
+      fetch("/bantu/content/utama.html").then((snap) => snap.text()).then((result) => {
+         body_utama.innerHTML = result;
+
+         // Judul
+         $("#judul").html("All Script Skin Balmond")
+
+         // Remove d-none
+         for (let i = 1; i <= 6; i++) {
+            $("#album_" + i).removeClass("d-none")
+         }
+
+         // 1
+         $("#img_1").attr("src", "/img/021.jpg")
+         $("#hero_1").html("Backup")
+         // Modal
+         $("#judul_1").html("Balmond [Backup]")
+         $("#youtube_1").attr("src", "")
+         $("#link_1").attr("href", "")
+
+         // 2
+         $("#img_2").attr("src", "/img/022.jpg")
+         $("#hero_2").html("NamaSkin")
+         // Modal
+         $("#judul_2").html("Balmond [Skin] NamaSkin")
+         $("#youtube_2").attr("src", "")
+         $("#link_2").attr("href", "")
+
+         // 3
+         $("#img_3").attr("src", "/img/023.jpg")
+         $("#hero_3").html("NamaSkin")
+         // Modal
+         $("#judul_3").html("Balmond [Skin] NamaSkin")
+         $("#youtube_3").attr("src", "")
+         $("#link_3").attr("href", "")
+
+         // 4
+         $("#img_4").attr("src", "/img/024.jpg")
+         $("#hero_4").html("NamaSkin")
+         // Modal
+         $("#judul_4").html("Balmond [Skin] NamaSkin")
+         $("#youtube_4").attr("src", "")
+         $("#link_4").attr("href", "")
+
+         // 5
+         $("#img_5").attr("src", "/img/025.jpg")
+         $("#hero_5").html("NamaSkin")
+         // Modal
+         $("#judul_5").html("Balmond [Skin] NamaSkin")
+         $("#youtube_5").attr("src", "")
+         $("#link_5").attr("href", "")
+
+         // 6
+         $("#img_6").attr("src", "/img/026.jpg")
+         $("#hero_6").html("NamaSkin")
+         // Modal
+         $("#judul_6").html("Balmond [Skin] NamaSkin")
+         $("#youtube_6").attr("src", "")
+         $("#link_6").attr("href", "")
+      });
+   </script>
+
+   <span id="body_utama"></span>
+
+   <!-- Agung Form Sheets -->
+   <span id="sheets"></span>
+
+   <!-- My Script -->
+   <script src="/bantu/global/script.js"></script>
+
+   <!-- Javascript Bootstaps -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
